@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/LegalityChecker"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.swt_3.5.0.v3550b.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.swt.gtk.linux.x86_3.5.0.v3550b.jar"/>
+	<classpathentry kind="lib" path="/usr/local/share/applications/eclipse/plugins/org.eclipse.birt.chart.engine_2.5.0.v20090604.jar" sourcepath="/usr/local/share/applications/eclipse/plugins/org.eclipse.birt.chart.engine_2.5.0.v20090604.jar">
+		<accessrules>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/aggregate/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/api/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/computation/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/computation/withaxes/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/computation/withoutaxes/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/datafeed/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/device/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/engine/i18n/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/event/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/exception/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/factory/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/integrate/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/birt/chart/internal/computations/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/birt/chart/internal/datafeed/*"/>
+			<accessrule kind="discouraged" pattern="org/eclipse/birt/chart/internal/model/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/log/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/attribute/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/attribute/impl/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/attribute/util/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/component/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/component/impl/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/component/util/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/data/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/data/impl/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/data/util/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/impl/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/layout/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/layout/impl/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/layout/util/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/type/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/type/impl/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/type/util/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/model/util/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/plugin/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/render/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/script/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/style/*"/>
+			<accessrule kind="accessible" pattern="org/eclipse/birt/chart/util/*"/>
+			<accessrule ignoreifbetter="true" kind="nonaccessible" pattern="**/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/MTGCardLegalityChecker"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
