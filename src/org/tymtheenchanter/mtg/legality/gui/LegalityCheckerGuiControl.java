@@ -20,9 +20,9 @@ import org.eclipse.swt.widgets.Table;
 import org.eclipse.swt.widgets.TableColumn;
 import org.eclipse.swt.widgets.TableItem;
 import org.eclipse.swt.widgets.Text;
-import org.randomcoding.mtg.tools.legalitychecker.scraper.GathererLegalityScraper;
-import org.randomcoding.mtg.tools.legalitychecker.scraper.MagicDeckFormat;
-import org.randomcoding.mtg.tools.legalitychecker.scraper.MagicLegalityRestriction;
+import org.randomcoding.mtg.tools.enumerations.MagicDeckFormat;
+import org.randomcoding.mtg.tools.enumerations.MagicLegalityRestriction;
+import org.randomcoding.mtg.tools.legalitychecker.scraper.GathererDataScraper;
 
 /**
  * Composite based control that creates the simple gui for the single card legality checker
@@ -33,13 +33,13 @@ public class LegalityCheckerGuiControl extends Composite
 {
 	private Text cardNameText;
 	private Table legalityTable;
-	private GathererLegalityScraper legalityScraper;
+	private GathererDataScraper legalityScraper;
 	private static final Logger log = Logger.getLogger(LegalityCheckerGuiLauncher.class.getCanonicalName());
 
 	public LegalityCheckerGuiControl(Composite parent)
 	{
 		super(parent, SWT.NONE);
-		legalityScraper = new GathererLegalityScraper();
+		legalityScraper = new GathererDataScraper();
 		createGui();
 	}
 
